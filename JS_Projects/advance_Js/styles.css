@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&family=Merriweather:ital@1&display=swap');
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 62.5%   /* 1rem = 10px */
+  position: relative;
+  background-color: #f7f7f7;
+  width:100vw;
+  height:100vh;
+  }
+
+.heading{
+  position:absolute;
+  text-align: center;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  border:1px dashed #ccc;
+  width: 100%;
+  max-width: 570px;
+  color:#1C2D5E;
+  padding:0.5em 0.9em;
+}
+
+.heading h3{
+    font-family:'Fondamento',cursive;
+    font-size: 3.4rem;
+    text-decoration: underline;
+    margin-bottom: 0.4em;
+}
+
+.heading p{
+  font-size: 2rem;
+  font-family: 'Merriweather', serif;
+}

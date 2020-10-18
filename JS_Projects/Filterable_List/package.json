@@ -1,0 +1,14 @@
+{
+  "name": "filterable_list",
+  "version": "1.0.0",
+  "description": "\"A list that can be filtered\"",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass SCSS/main.scss CSS/styles.css -w"
+  },
+  "author": "amol",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.26.10"
+  }
+}
